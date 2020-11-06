@@ -11,4 +11,4 @@ Data were taken from the Diabinmune project, which consists of a public database
 The packages we've used:
 
 ```{r}
-install.packages(c("ggplot2", "mlr", "dplyr", "parallelMap"))
+install.packages(c("ggplot2", "mlr", "dplyr", "parallelMap", "stringr", "caret"))
