@@ -19,7 +19,7 @@ fs.abs = function(data, fs.type, ref, nfeat, nombres, destino){
     saveRDS(t[[i]], file = paste(destino,names(t)[[i]],sep =''))
   }
 }
-
+#Hacemos el FS, probamos tambien como funciona con Kruskal ademas de Wilcoxon
 feature.Selection = function(lista, tipo, referencia, output){
   fstype = 'kruskal.test'
   fstyperef = 'kruskaltest'
