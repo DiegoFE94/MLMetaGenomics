@@ -5,11 +5,15 @@ Data were taken from the Diabinmune project (https://diabimmune.broadinstitute.o
 
 ## Abstract
 
-In recent years and due to the large number of recent studies, it is known that changes in the balance of the microbiota can cause a high battery of diseases, including diabetes. Machine Learning (ML) techniques are able to identify expression patterns and complex, non-linear relationships between the data set to extract intrinsic knowledge without any biological assumptions about the data. At the same time, the techniques of mass sequencing allow us to obtain the metagenomic profile of an individual, whether it is a body part, organ or tissue, thus being able to identify the composition of a particular microbe. The great increase in the development of both technologies in their respective fields of study leads to the logical union of both to try to identify the basis of a complex disease such as diabetes.
+In recent years and due to the large number of recent studies, it is known that changes in the balance of the microbiota can cause a high battery of diseases, including diabetes. Machine Learning (ML) techniques are able to identify expression patterns and complex, non-linear relationships between the data set to extract intrinsic knowledge without any biological assumptions about the data. At the same time, the techniques of mass sequencing allow us to obtain the metagenomic profile of an individual, whether it is a body part, organ or tissue, thus being able to identify the composition of a particular microbe. The great increase in the development of both technologies in their respective fields of study leads to the logical union of both to try to identify the basis of a complex disease such as diabetes. In this repository is stored the pipeline used to carry out a study to use machine learning as a diagnostic method of type 1 diabetes. 
 
-### Prerequisites:
+## Prerequisites:
 
 The packages we've used:
 
 ```{r}
 install.packages(c("ggplot2", "mlr", "dplyr", "parallelMap", "stringr", "caret"))
+```
+
+## Questions?
+If you have any questions, please feel free to contact (diego.fedreira@udc.es).
