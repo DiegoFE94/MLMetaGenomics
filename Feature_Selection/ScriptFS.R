@@ -1,4 +1,4 @@
-###  TFM DIABINMUNE_Script3 ###
+###  Script_Feature_Selection ###
 ## Definimos la funcion ##
 fs.abs = function(data, fs.type, ref, nfeat, nombres, destino){
   require(mlr)
