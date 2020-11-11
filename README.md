@@ -33,7 +33,10 @@ install.packages(c("ggplot2", "mlr", "dplyr", "parallelMap", "stringr", "caret")
 	year={2020}, 
 	month={Aug}, 
 	pages={50}}
-	
+
+
+# Visualization results
+Also, you can access to all results of the project through the [Shiny](https://diegofedreira.shinyapps.io/shinyapp/) web developed.
 
 ## Questions?
 If you have any questions, please feel free to contact (diego.fedreira@udc.es).
