@@ -1,6 +1,7 @@
 # Machine Learning analysis of the human infant gut microbiome identifies influential species in type 1 diabetes
 
 ![alt text](https://github.com/DiegoFE94/MLMetaGenomics/blob/master/GraphicalAbstract.png)
+
 Preliminary results of this project were published recently in the following congress:
 Fernández-Edreira, D.; Liñares-Blanco, J.; Fernandez-Lozano, C. Identification of Prevotella, Anaerotruncus and Eubacterium Genera by Machine Learning Analysis of Metagenomic Profiles for Stratification of Patients Affected by Type I Diabetes. Proceedings 2020, 54, 50. 
 
