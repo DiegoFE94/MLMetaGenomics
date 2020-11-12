@@ -21,6 +21,7 @@ install.packages(c("ggplot2", "mlr", "dplyr", "parallelMap", "stringr", "caret")
 
 # Visualization results
 Also, you can access to all results of the project through the [Shiny](https://diegofedreira.shinyapps.io/shinyapp/) web developed.
+
 If you are interested on shiny aplications, the code of this project is available on [Github](https://github.com/DiegoFE94/ShinyMLMetagenomics).
 
 ## Questions?
