@@ -2,12 +2,6 @@
 
 ![alt text](https://github.com/DiegoFE94/MLMetaGenomics/blob/master/GraphicalAbstract.png)
 
-Preliminary results of this project were published recently in the following congress:
-Fernández-Edreira, D.; Liñares-Blanco, J.; Fernandez-Lozano, C. Identification of Prevotella, Anaerotruncus and Eubacterium Genera by Machine Learning Analysis of Metagenomic Profiles for Stratification of Patients Affected by Type I Diabetes. Proceedings 2020, 54, 50. 
-
-DOI: https://doi.org/10.3390/proceedings2020054050
-
-Currently, this repository includes code based on unpublished article results (pending of peer-review).
 
 # Data
 The data used in this work was downloaded from the [DIABIMMNUE](https://diabimmune.broadinstitute.org/diabimmune) project. This project, financed by the European Union through the H2020 initiative in 2016, was set up with the aim of testing the hygiene hypothesis and its role in the development of T1D. For this study, the T1D cohort was used, which aims to compare the microbiome of infants who have developed T1D with healthy controls from the same geographical area. Fecal samples were extracted from each individual and ribosomal 16S RNA sequencing was performed to characterize the metagenomic profile. For this study, data on the relative abundance of each operative taxonomic unit (OTU) of the different infants that make up the cohort were downloaded. The samples have been labelled according to patients and T1D controls. In total, 124 samples have been included for analysis, from a total of 33 infants.
@@ -23,18 +17,6 @@ The packages we've used:
 ```{r}
 install.packages(c("ggplot2", "mlr", "dplyr", "parallelMap", "stringr", "caret"))
 ```
-
-# Citation
-@article{Fern_ndez_Edreira_2020, 
-	title={Identification of Prevotella, Anaerotruncus and Eubacterium Genera by Machine Learning Analysis of Metagenomic Profiles for Stratification of Patients Affected by Type I Diabetes}, 
-	volume={54}, ISSN={2504-3900}, 
-	url={http://dx.doi.org/10.3390/proceedings2020054050}, 
-	DOI={10.3390/proceedings2020054050}, number={1},
-	journal={Proceedings}, publisher={MDPI AG},
-	author={Fernández-Edreira, Diego and Liñares-Blanco, Jose and Fernandez-Lozano, Carlos}, 
-	year={2020}, 
-	month={Aug}, 
-	pages={50}}
 
 
 # Visualization results
